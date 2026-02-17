@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1 class="title">Currency-converter</h1>
+
+        <div class="interface">
+            <div class="selection">
+                <p class="text">Convert from:</p>
+                <div class="search-wrapper">
+                    <input type="text" id="searchCurrencyOne" placeholder="Find currency...">
+                </div>
+                <select name="currency1" id="currencyOne" class="currency">
+                </select>
+                
+                <p class="text texttwo">to:</p>
+                <div class="search-wrapper two">
+                    <input type="text" id="searchCurrencyTwo" placeholder="Find currency...">
+                </div>
+                <select name="currency2" id="currencyTwo" class="currency">
+                </select>
+
+            </div>
+            <div class="sum">
+                <label for="amount">Amount</label>
+                <input type="number" class="sumInput">
+                <button class="btn">convert</button>
+                <button class="swap-btn">&#8652;</button>
+            </div>
+            <p class="result">Result: 0</p>
+        </div>
+
+        <p class="errorText"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
